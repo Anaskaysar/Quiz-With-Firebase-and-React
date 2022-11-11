@@ -1,14 +1,14 @@
 import Layout from "../components/pages/Layout";
 import "../styles/App.css";
-import Login from "./Login/Login";
-import SignUp from "./SignUp/SignUp";
+import Result from "./pages/Result";
 
 function App() {
   return (
     <Layout>
-      {/* <Home /> */}
-      <SignUp />
-      <Login />
+      {/* <Home />
+      <Signup /> */}
+
+      <Result />
     </Layout>
   );
 }

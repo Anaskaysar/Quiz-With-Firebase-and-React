@@ -1,6 +1,6 @@
-export default function CheckBox({ text, ...rest }) {
+export default function CheckBox({ className, text, ...rest }) {
   return (
-    <label>
+    <label className={className}>
       <input type="checkbox" {...rest} /> <span>{text}</span>
     </label>
   );
